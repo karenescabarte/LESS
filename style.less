@@ -1,0 +1,68 @@
+/*CSS reset settings here*/
+
+@background_color_1: #ffd9b7;
+@background_color_2: #b97a57;
+@background_color_3: #ff7f27;
+@background_color_4: #880015;
+@background_color_5: #ffaec9;
+@background_color_6: #c8bfe7;
+@background_color_7: #ffff88;
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#wrapper {
+	width: 980px;
+	min-height: 500px;
+	background-color: @background_color_1;
+	margin: 20px auto;
+	padding: 20px;
+	#logo {
+		min-height: 130px;
+		width: 260px;
+		background-color: @background_color_2;
+		display: inline-block;
+		margin: 0 10px 20px 0;
+	}
+	#navigation {
+		min-height: 130px;
+		width: 655px;
+		background-color: @background_color_3;
+		display: inline-block;
+		margin: 0 0 20px 10px;
+	}
+	#main_content {
+		min-height: 250px;
+		width: 940px;
+		background-color: @background_color_4;
+		padding: 40px;
+		#about {
+			min-height: 250px;
+			width: 650px;
+			background-color: @background_color_5;
+			display: inline-block;
+			margin: 0 20px 0 0;
+		}
+		#advertisement {
+			min-height: 200px;
+			width: 155px;
+			background-color: @background_color_6;
+			display: inline-block;
+			margin: 0 0 0 20px;
+			vertical-align: top;
+		}
+	}
+	.sponsors {
+		min-height: 65px;
+		width: 310px;
+		background-color: @background_color_7;
+		display: inline-block;
+		margin: 20px 0 0;
+	}
+}
+footer {
+	margin: 20px;
+	text-align: center;
+}
